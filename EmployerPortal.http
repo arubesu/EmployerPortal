@@ -1,0 +1,5 @@
+@EmployerPortal_HostAddress = http://localhost:5299
+
+###
+GET {{EmployerPortal_HostAddress}}/api/users/login?username=admin
+Accept: application/json
